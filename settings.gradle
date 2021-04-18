@@ -1,3 +1,4 @@
+include ':zhaoc-test'
 include ':liblibrary'
 include ':testlibrary'
 include ':app'

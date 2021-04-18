@@ -3,7 +3,7 @@ package com.example.mytestproject;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.example.testlibrary.ToastUtils;
+import com.example.liblibrary.LibTest;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,6 +11,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ToastUtils.showToast(this, "哈哈");
+        LibTest.showToast(this, "哈哈");
     }
 }
